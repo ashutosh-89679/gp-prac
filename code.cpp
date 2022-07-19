@@ -10,9 +10,10 @@ using Microsoft.DirectX.Direct3D;
 
 namespace WindowsFormsApplication2
 {
+    
     public partial class Form1 : Form
     {
-        private Device device;
+        Microsoft.DirectX.Direct3D.Device device;
         public Form1()
         {
             InitializeComponent();
